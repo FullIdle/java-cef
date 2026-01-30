@@ -60,9 +60,9 @@ OpenJDK requires Freetype2 which should be built locally for best results [[*]](
 #define FT_BASE(x) __declspec(dllexport) x
 ```
 
-7\. Build the project. You should now have "C:\code\freetype-2.6.2-src\objs\vc2010\[Win32|x64]\freetype.[dll|lib]" files.
+7\. Build the project. You should now have "C:\code\freetype-2.6.2-src\objs\vc2010\[Win32\|x64]\freetype.[dll\|lib]" files.
 
-8\. Create a new "C:\code\freetype-2.6.2-src\lib" directory and copy the freetype.[dll|lib] files into it.
+8\. Create a new "C:\code\freetype-2.6.2-src\lib" directory and copy the freetype.[dll\|lib] files into it.
 
 ## Setup MinGW
 
@@ -276,7 +276,7 @@ To use the resulting JDK build with JCEF follow these steps.
 
 1\. Create a Debug build of JCEF as described on the [Branches And Building](branches_and_building.md) page.
 
-2\. Download Debug Symbols for the CEF version from http://cefbuilds.com and extract libcef.dll.pdb to "src\jcef_build\native\Debug".
+2\. Download Debug Symbols for the CEF version from <https://cef-builds.spotifycdn.com/index.html> and extract libcef.dll.pdb to "src\jcef_build\native\Debug".
 
 3\. Edit JCEF's "src\tools\run.bat" script. Replace the "java" command with "C:\code\openjdk8\build\windows-x86_64-normal-server-fastdebug\jdk\bin\java" (or the 32-bit path as appropriate).
 

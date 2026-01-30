@@ -15,7 +15,7 @@ This page lists notes for JCEF releases.
 
 # Background
 
-The JCEF project is an extension of the Chromium Embedded Framework project hosted at https://github.com/chromiumembedded/cef. JCEF maintains a development branch that tracks the most recent CEF release branch. JCEF source code (both native code and Java code) can be built manually as described below.
+The JCEF project is an extension of the Chromium Embedded Framework project hosted at <https://github.com/chromiumembedded/cef>. JCEF maintains a development branch that tracks the most recent CEF release branch. JCEF source code (both native code and Java code) can be built manually as described below.
 
 # Development
 
