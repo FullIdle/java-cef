@@ -98,7 +98,7 @@ cmake -G "Visual Studio 16" -A x64 ..
 
 JCEF supports a number of different project formats via CMake including [Ninja](http://martine.github.io/ninja/). See comments in the top-level [CMakeLists.txt](https://github.com/chromiumembedded/java-cef/blob/master/CMakeLists.txt) file for additional CMake usage instructions.
 
-2\. On Windows and Linux build the JCEF Java classes using the _compile.[bat|sh]_ tool.
+2\. On Windows and Linux build the JCEF Java classes using the _compile.[bat\|sh]_ tool.
 
 ```sh
 cd /path/to/java-cef/src/tools
@@ -107,7 +107,7 @@ compile.bat win64
 
 On Mac OS X the JCEF Java classes are already built by the CMake project.
 
-3\. On Windows and Linux test that the resulting build works using the _run.[bat|sh]_ tool. You can either run the simple example (see java/simple/MainFrame.java) or the detailed one (see java/detailed/MainFrame.java) by appending "detailed" or "simple" to the _run.[bat|sh]_ tool. This example assumes that the "Release" configuration was built in step 1 and that you want to use the detailed example.
+3\. On Windows and Linux test that the resulting build works using the _run.[bat\|sh]_ tool. You can either run the simple example (see java/simple/MainFrame.java) or the detailed one (see java/detailed/MainFrame.java) by appending "detailed" or "simple" to the _run.[bat\|sh]_ tool. This example assumes that the "Release" configuration was built in step 1 and that you want to use the detailed example.
 
 ```sh
 cd /path/to/java-cef/src/tools
@@ -123,7 +123,7 @@ open jcef_app.app
 
 ### Packaging
 
-After building the Release configurations you can use the _make\_distrib.[bat|sh]_ script to create a binary distribution.
+After building the Release configurations you can use the _make\_distrib.[bat\|sh]_ script to create a binary distribution.
 
 ```sh
 cd /path/to/java-cef/src/tools
