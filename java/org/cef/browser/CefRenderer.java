@@ -4,14 +4,14 @@
 
 package org.cef.browser;
 
-import com.jogamp.opengl.GL2;
-
-import java.awt.Rectangle;
-import java.nio.ByteBuffer;
-import java.nio.FloatBuffer;
+//import com.jogamp.opengl.GL2;
+//
+//import java.awt.Rectangle;
+//import java.nio.ByteBuffer;
+//import java.nio.FloatBuffer;
 
 class CefRenderer {
-    private boolean transparent_;
+    /*private boolean transparent_;
     private GL2 initialized_context_ = null;
     private int[] texture_id_ = new int[1];
     private int view_width_ = 0;
@@ -254,5 +254,5 @@ class CefRenderer {
     protected void incrementSpin(float spinDX, float spinDY) {
         spin_x_ -= spinDX;
         spin_y_ -= spinDY;
-    }
+    }*/
 }

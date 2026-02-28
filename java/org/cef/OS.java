@@ -5,7 +5,7 @@
 package org.cef;
 
 public class OS {
-    private static enum OSType {
+    public static enum OSType {
         OSUndefined,
         OSLinux,
         OSWindows,
@@ -27,7 +27,7 @@ public class OS {
         return getOSType() == OSType.OSLinux;
     }
 
-    private static final OSType getOSType() {
+    public static final OSType getOSType() {
         if (osType == OSType.OSUndefined) {
             String os = System.getProperty("os.name").toLowerCase();
             if (os.startsWith("windows"))
