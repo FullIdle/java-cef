@@ -737,7 +737,7 @@ abstract class CefBrowser_N extends CefNativeAdapter implements CefBrowser {
      * DragSource* methods.
      * This method is only used when window rendering is disabled.
      */
-    protected final void dragSourceEndedAt(Point pos, int operation) {
+    public void dragSourceEndedAt(Point pos, int operation) {
         try {
             N_DragSourceEndedAt(pos, operation);
         } catch (UnsatisfiedLinkError ule) {
